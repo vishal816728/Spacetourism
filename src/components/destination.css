@@ -1,0 +1,102 @@
+.destination-container{
+    background: url("../starter-code/assets/destination/background-destination-mobile.jpg") no-repeat center/cover;
+    height: calc(100vh + 1px);
+   
+    
+}
+
+@media(min-width:768px){
+    .destination-container{
+        background: url("../starter-code/assets/destination/background-destination-desktop.jpg") no-repeat center/cover;
+        height: calc(100vh + 1px);
+        overflow-y: auto;
+    }
+}
+.container11{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.container11 span{
+    color: #aaa;
+}
+.container22{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+   
+}
+@media(max-width:685px){
+    .listul{
+        display: flex;
+        flex-direction: row;
+        float: left;
+    }.container22{
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-top: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media(max-width:517px){
+ 
+    .listul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-right: 40px;
+
+        
+    }.container33{
+    
+      float: right;
+        flex-direction: column;
+        text-align: center;
+    }.destinationdescription{
+        display: none;
+    }
+    .destinationdetails{
+        display: none;
+    }
+}
+.btn-destination{
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+   
+}.btn-destination:focus{
+    text-decoration: underline;
+}
+.container33{
+    text-align: start;
+    max-width: 500px;
+    margin-left:50px ;
+}
+.destinationname{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.listtt{
+    display: inline-block;
+    flex-direction: row;
+
+}
+.destinationdescription{
+    color: #999;
+    max-width: 500px;
+}
+.destinationdetails{
+    color: #aaa;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    text-align: start;
+}

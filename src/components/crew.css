@@ -1,0 +1,68 @@
+
+.crew-main-container{
+    background: url("../starter-code/assets/crew/background-crew-mobile.jpg") no-repeat center/cover;
+    height: calc(100vh);
+   display: flex;
+   justify-content:center ;
+   align-items: center;
+   flex-direction: column;
+   overflow-y:auto ;
+}
+.crew-main-container p{
+    max-width: 400px;
+}
+.crewinfo h1{
+    color: #fff;
+    font-size: 40px;
+}
+.crewinfo p{
+    color: #aaa;
+}
+.crewtitle{
+     font-size: 25px;
+     color: #bbb;
+     margin-top: 150px;
+     margin-bottom: 0;     
+}
+
+.crewinfo{
+    margin-top: 10px;
+}
+.ul-list-crew{
+    display: flex;
+    list-style: none;
+
+}
+.btn-crew{
+    margin: 1px;
+    margin-top: 10px;
+    background:none ;
+    border: none;
+    color: #aaa;
+}
+
+@media(min-width:768px){.crew-main-container{
+    background: url("../starter-code/assets/crew/background-crew-desktop.jpg") no-repeat center/cover;
+    height: calc(100vh);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.crew-main-container p{
+    max-width: 500px;
+}
+.crewtitle{
+        position: absolute;
+        top: 15%;
+        margin-top: 25px;
+         font-size: 25px;
+         color: #bbb;
+}
+.crewcontainer1{
+    line-height: 30px;
+}
+.crewinfo{
+ margin-top: 80px;   
+}
+}
